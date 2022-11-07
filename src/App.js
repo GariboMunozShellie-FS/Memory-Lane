@@ -15,7 +15,7 @@ function App() {
         <section style={styles.main}>
           <Routes>
             <Route path="/" element= {<Article/>} />
-            <Route path="/Memory-Lane" element= {<Article/>} />
+            <Route path="/Memory-Lane/" element= {<Article/>} />
             <Route path="/home" element= {<Article/>} />
             <Route path="/apis" element={<PostApis/>} />
             <Route path="/react" element={<PostReact/>} />
