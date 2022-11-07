@@ -12,7 +12,6 @@ function App() {
       <article style={styles.app}>
         <Header/>
         <section style={styles.main}>
-          <Link to='/home' style={styles.home} >Home </Link>
           <Routes>
             <Route path="/" element= {<Article/>} />
             <Route path="/Memory-Lane/" element= {<Article/>} />
