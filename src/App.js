@@ -6,7 +6,8 @@ import PostCurd from "./components/post/articles/PostCurd";
 import PostMongoDB from "./components/post/articles/PostMongoDB";
 import PostReact from "./components/post/articles/PostReact";
 import Footer from "./components/Footer";
-import {Routes, Route, Link } from "react-router-dom";
+import { Router,Routes, Route } from "react-router-dom";
+
 function App() {
     return (
       <article style={styles.app}>
@@ -21,6 +22,7 @@ function App() {
             <Route path="/curd" element={<PostCurd/>} />
             <Route path="/mongodb" element={<PostMongoDB/>} />
           </Routes>
+          <Article/>
         </section>
         <Footer/>
       </article>
