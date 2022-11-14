@@ -5,6 +5,7 @@ import PostApis from "./post/cards/PostApis";
 import PostMongoDB from "./post/cards/PostMongoDB";
 import PostReact from "./post/cards/PostReact";
 import PostCurd from "./post/cards/PostCurd";
+import PostReactNative from "./post/cards/PostReactNative";
 
 const Article = (props) => {
     return (
@@ -14,7 +15,10 @@ const Article = (props) => {
                 <Link to='/apis' style={styles.link} > <PostApis/></Link>
                 <Link to='/react' style={styles.link} ><PostReact/> </Link>
                 <Link to='/curd' style={styles.link} ><PostCurd/> </Link>
+            </section>
+            <section style={styles.post}>
                 <Link to='/mongodb' style={styles.link} ><PostMongoDB/> </Link>
+                <Link to='/reactnative' style={styles.link} ><PostReactNative/> </Link>
             </section>
             <br/><br/><br/>
             <p style={styles.p}>

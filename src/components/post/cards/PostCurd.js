@@ -18,7 +18,7 @@ export default PostCurd;
 
 const styles = {
   section: {
-    width: "250px",
+    width: "350px",
     padding: '10px',
     margin:'10px',
     float: "left",

@@ -41,6 +41,7 @@ const styles={
         position: "relative",
         background: "rgba(205,215,205,0.75)",
         padding:"30px",
+        gap: '20px',
     },
     img: {
     width: "100%",
@@ -64,9 +65,6 @@ const styles={
     },
     home: {
         fontSize:"1.5rem",
-    },
-    article: {
-        gap: '20px',
     },
     icons: {
         fontSize:"1rem",

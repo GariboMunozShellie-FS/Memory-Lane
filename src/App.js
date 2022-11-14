@@ -7,6 +7,7 @@ import PostMongoDB from "./components/post/articles/PostMongoDB";
 import PostReact from "./components/post/articles/PostReact";
 import Footer from "./components/Footer";
 import { Routes, Route } from "react-router-dom";
+import PostReactNative from "./components/post/articles/PostReactNative";
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/react" element={<PostReact/>} />
             <Route path="/curd" element={<PostCurd/>} />
             <Route path="/mongodb" element={<PostMongoDB/>} />
+            <Route path="/reactnative" element={<PostReactNative/>} />
           </Routes>
         </section>
         <Footer/>

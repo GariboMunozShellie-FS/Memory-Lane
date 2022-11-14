@@ -1,26 +1,26 @@
 import React from "react";
 
-const PostMongoDB = (props) => {
+const PostReactNative = (props) => {
     return (
         <section style={styles.section}>
-            <img style={styles.img} alt="beach scenery" src="https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"/>
-            <h2>MongoDB</h2>
+            <img style={styles.img} alt="ReactJS" src="https://codersera.com/blog/wp-content/uploads/2019/02/react-native.png"/>
+            <h2>React Native</h2>
             <ol>
-                <li>HTTP Methods</li> 
-                <li>Access to Database</li> 
+                <li>Navigation</li> 
+                <li>Params</li> 
             </ol>
         </section>
     );
 };
 
-export default PostMongoDB;
+export default PostReactNative;
 
 const styles = {
   section: {
     width: "350px",
     padding: '10px',
     margin:'10px',
-    float: "left",
+    float: "center",
     background:"rgba(100,115,100,0.5)"
   },
   img: {
@@ -31,7 +31,7 @@ const styles = {
     backgroundColor: "black",
   },
   link: {
-    width: "25%",
+    width: "35%",
     float: "right",
     color: 'blue'
   },
