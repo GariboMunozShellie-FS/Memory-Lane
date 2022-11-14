@@ -19,7 +19,7 @@ const PostReact = (props) => {
                     
                 <img style={styles.img} alt="React Native" src="https://codersera.com/blog/wp-content/uploads/2019/02/react-native.png"/>
                 <p style={styles.p}>One thing that surprise me about React Native, was from how different it actually is from React. Is has a similer structure but there is some area that I didnt know how to even tackle.</p>
-                <p style={styles.p}>One thing was the navigation, within react you just need to really add a link to get it to work properly. yet in native, you not only do this, but also have to pass a prop up into the component pr page you are working with, and continue until you get to the app.js. </p>
+                <p style={styles.p}>One thing was the navigation, within react you just need to really add a link to get it to work properly. yet in native, you not only do this, but also have to pass a prop up into the component pr page you are working with, and continue until you get to the app.js.</p>
                 <p style={styles.p}>Another thing that was different was to grab in inputs of text. Unforturnly you have to grab inputs individuelly and then you can set them in there own variable to create an array. The are better way to do this but due to my current skill set, this would have been more difficult.</p>
             </section>
         </article>
