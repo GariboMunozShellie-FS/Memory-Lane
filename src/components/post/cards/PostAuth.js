@@ -8,7 +8,6 @@ const PostAuth = (props) => {
             <ol>
                 <li>JSON Web Token</li> 
                 <li>Authentication Flow</li> 
-                <li>Password Hashing</li>  
             </ol>
         </section>
     );
