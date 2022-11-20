@@ -4,11 +4,11 @@ const PostAuth = (props) => {
     return (
         <section style={styles.section}>
             <img style={styles.img} alt="login" src="https://img.freepik.com/free-vector/login-page-template-line-style_1017-31857.jpg?w=2000"/>
-            <h2>React</h2>
+            <h2>Authentation</h2>
             <ol>
-                <li>Styles</li> 
-                <li>Create HTML Elements</li> 
-                <li>CURD</li>  
+                <li>JSON Web Token</li> 
+                <li>Authentication Flow</li> 
+                <li>Password Hashing</li>  
             </ol>
         </section>
     );
