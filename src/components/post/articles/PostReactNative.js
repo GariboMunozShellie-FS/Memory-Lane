@@ -11,7 +11,7 @@ const PostReact = (props) => {
                 <h1 style={styles.title}>React Native</h1>
                 <section style={styles.article}>
                     <p> By: Shellie Munoz</p>
-                    <p> Date: Oct 30, 2022</p>
+                    <p> Date: Nov 14, 2022</p>
                 </section>
             </header>
             <section style={styles.section}>

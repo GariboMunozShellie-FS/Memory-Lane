@@ -6,6 +6,7 @@ import PostMongoDB from "./post/cards/PostMongoDB";
 import PostReact from "./post/cards/PostReact";
 import PostCurd from "./post/cards/PostCurd";
 import PostReactNative from "./post/cards/PostReactNative";
+import PostAuth from "./post/cards/PostAuth";
 
 const Article = (props) => {
     return (
@@ -19,6 +20,7 @@ const Article = (props) => {
             <section style={styles.post}>
                 <Link to='/mongodb' style={styles.link} ><PostMongoDB/> </Link>
                 <Link to='/reactnative' style={styles.link} ><PostReactNative/> </Link>
+                <Link to='/reactauth' style={styles.link} ><PostAuth/> </Link>
             </section>
             <br/><br/><br/>
             <p style={styles.p}>

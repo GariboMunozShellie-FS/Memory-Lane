@@ -13,7 +13,7 @@ const PostApis = (props) => {
                 <h1 style={styles.title}>Deploy Apis </h1>
                 <section style={styles.article}>
                     <p> By: Shellie Munoz</p>
-                    <p> Date: Oct 30, 2022</p>
+                    <p> Date: Nov 7, 2022</p>
                 </section>
             </header>
             
