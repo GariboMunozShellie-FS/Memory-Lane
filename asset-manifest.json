@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Memory-Lane/static/css/main.e6c13ad2.css",
-    "main.js": "/Memory-Lane/static/js/main.b86a860e.js",
+    "main.js": "/Memory-Lane/static/js/main.51281e4d.js",
     "static/js/787.049d377b.chunk.js": "/Memory-Lane/static/js/787.049d377b.chunk.js",
     "index.html": "/Memory-Lane/index.html",
     "main.e6c13ad2.css.map": "/Memory-Lane/static/css/main.e6c13ad2.css.map",
-    "main.b86a860e.js.map": "/Memory-Lane/static/js/main.b86a860e.js.map",
+    "main.51281e4d.js.map": "/Memory-Lane/static/js/main.51281e4d.js.map",
     "787.049d377b.chunk.js.map": "/Memory-Lane/static/js/787.049d377b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b86a860e.js"
+    "static/js/main.51281e4d.js"
   ]
 }
